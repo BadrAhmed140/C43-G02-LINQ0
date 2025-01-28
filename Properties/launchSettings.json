@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "C43-G02-LINQ0": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

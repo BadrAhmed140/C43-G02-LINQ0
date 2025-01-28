@@ -1,0 +1,14 @@
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\bin\Debug\net8.0\C43-G02-LINQ0.exe
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\bin\Debug\net8.0\C43-G02-LINQ0.deps.json
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\bin\Debug\net8.0\C43-G02-LINQ0.runtimeconfig.json
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\bin\Debug\net8.0\C43-G02-LINQ0.dll
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\bin\Debug\net8.0\C43-G02-LINQ0.pdb
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.GeneratedMSBuildEditorConfig.editorconfig
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.AssemblyInfoInputs.cache
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.AssemblyInfo.cs
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.csproj.CoreCompileInputs.cache
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.dll
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\refint\C43-G02-LINQ0.dll
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.pdb
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.genruntimeconfig.cache
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\ref\C43-G02-LINQ0.dll
