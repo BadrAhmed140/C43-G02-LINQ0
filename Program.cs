@@ -1,11 +1,15 @@
 ﻿using System.Linq;
+using System.Runtime.ConstrainedExecution;
+using System.Text.RegularExpressions;
 using C43_G02_LINQ0;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 using static C43_G02_LINQ0.ListGenerator;
 internal class Program
 {
     private static void Main(string[] args)
     {
         #region demo
+
         //List<int> Numbers = new List<int> {1,2,3,4,5,6,7,9};
         //List<int> OddNumbers=Numbers.Where((N)=>N%2 !=0).ToList();
         //foreach (int n in OddNumbers)
@@ -217,5 +221,78 @@ internal class Program
         #endregion
         #endregion
         #endregion
+        #region assignment 
+        #region LINQ - Restriction Operators
+        ////1. Find all products that are out of stock.
+        // var Result = ProductList.Where(p => p.UnitsInStock == 0);
+        ////2.Find all products that are in stock and cost more than 3.00 per unit
+        // var Result = ProductList.Where(p => p.UnitsInStock > 0 && p.UnitPrice > 3.00m);
+        ////3. Returns digits whose name is shorter than their value
+        //string[] arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+        //var Result = arr.Where((name, index) => name.Length < index);
+        #endregion
+        #region LINQ - Ordering Operators
+
+        // 1. Sort a list of products by name
+        ////var Result = ProductList.OrderBy(p => p.ProductName);
+        //2.Uses a custom comparer to do a case -insensitive sort of the words in an array.
+        ////          string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+        ////var Result = Arr.OrderBy(word => word, StringComparer.OrdinalIgnoreCase);
+        //3. Sort a list of products by units in stock from highest to lowest.
+        //// var Result = ProductList.OrderByDescending(p => p.UnitsInStock);
+        //4. Sort a list of digits, first by length of their name, and then alphabetically by the name itself.
+        ////string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+        ////var Result = Arr.OrderBy(d => d.Length).ThenBy(d => d);
+        //5. Sort first by word length and then by a case-insensitive sort of the words in an array.
+        ////string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+        ////var Result = words.OrderBy(w => w.Length).ThenBy(w => w, StringComparer.OrdinalIgnoreCase);
+        //6. Sort a list of products, first by category, and then by unit price, from highest to lowest.
+        ////var Result = ProductList.OrderBy(p => p.Category).ThenByDescending(p => p.UnitPrice);
+        //7. Sort first by word length and then by a case-insensitive descending sort of the words in an array.
+        ////string[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+        ////var Result = Arr.OrderBy(p => p.Length).ThenByDescending(w => w, StringComparer.OrdinalIgnoreCase);
+        // 8. Create a list of all digits whose second letter is 'i', reversed from original order
+        ////string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+        ////var Result = Arr.Where(d => d[1] == 'i').Reverse();
+
+        #endregion
+        #region LINQ – Transformation Operators
+        //1. Return a sequence of just the names of a list of products.
+        ////var Result = ProductList.Select(p => p.ProductName);
+        //2. Produce a sequence of the uppercase and lowercase versions of each word in the original array (Anonymous Types).
+        ////string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+
+        ////var Result = words.Select(w => new { Upper = w.ToUpper(), Lower = w.ToLower() });
+        //3. Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
+        ////var Result = ProductList.Select(p => new { p.ProductName, Price = p.UnitPrice });
+        //4. Determine if the value of ints in an array match their position in the array.
+        ////int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+        ////var Result = Arr.Select((p, i) => new { p, match = p == i });
+        //5. Returns all pairs of numbers from both arrays such that the number from numbersA is less than the number from numbersB.
+        ////int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+        ////int[] numbersB = { 1, 3, 5, 7, 8 };
+
+        ////var Result = from a in numbersA
+        ////                  from b in numbersB
+        ////                  where a < b
+        ////                  select new { A = a, B = b };
+
+        #endregion
+        #region Use ListGenerators.cs & Customers.xml
+        //6. Select all orders where the order total is less than 500.00.
+        ////var Result = ListGenerator.CustomerList.Where(p => p.Orders.Any(o => o.Total < 500.00m));
+        // 7. Select all orders made in 1998 or later
+        ////    var Result = CustomerList
+        ////.SelectMany(p => p.Orders) 
+        ////.Where(o => o.OrderDate >= new DateTime(1998, 1, 1)); 
+
+
+        #endregion
+        //foreach (var n in Result)
+        //{
+        //    Console.WriteLine(n);
+        //}
+        #endregion
+
     }
 }

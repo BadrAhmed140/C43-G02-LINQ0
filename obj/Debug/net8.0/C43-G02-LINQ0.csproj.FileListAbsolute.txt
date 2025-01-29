@@ -12,3 +12,4 @@ D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0
 D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.pdb
 D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.genruntimeconfig.cache
 D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\ref\C43-G02-LINQ0.dll
+D:\backend\assignment\c#\New folder\C43-G02-LINQ0\C43-G02-LINQ0\obj\Debug\net8.0\C43-G02-LINQ0.sourcelink.json
